@@ -41,13 +41,13 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
+      value: "chirag.budheliya046@gmail.com",
       href: "chirag.budheliya046@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (XXX) XXX-XXXX",
+      value: "+1 437-955-6156",
       href: "tel:+1 437-955-6156 "
     },
     {
