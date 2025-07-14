@@ -42,7 +42,7 @@ const Contact = () => {
       icon: Mail,
       label: "Email",
       value: "chirag.budheliya046@gmail.com",
-      href: "chirag.budheliya046@gmail.com"
+      href: "mailto:chirag.budheliya046@gmail.com"
     },
     {
       icon: Phone,
