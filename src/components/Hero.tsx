@@ -84,28 +84,30 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f766e] overflow-hidden">
-      {/* Soft Background Pattern */}
-      <div className="absolute inset-0 opacity-10 pointer-events-none">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.05%22%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2230%22%20r%3D%224%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E')] animate-pulse"></div>
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-sky-900 via-blue-900 to-blue-950 overflow-hidden">
+      {/* Floating Cloud SVGs */}
+      <div className="absolute inset-0 overflow-hidden z-0">
+        <div className="absolute top-10 left-[-100px] w-[500px] h-[300px] bg-[url('/cloud1.svg')] bg-no-repeat bg-contain animate-cloudFloatSlow opacity-20" />
+        <div className="absolute bottom-0 right-[-100px] w-[500px] h-[300px] bg-[url('/cloud2.svg')] bg-no-repeat bg-contain animate-cloudFloatFast opacity-30" />
       </div>
 
+      {/* Content */}
       <div className="relative z-10 max-w-6xl px-6 text-center">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-tight drop-shadow-lg">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-tight drop-shadow-xl">
           Cloud & Network
-          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400">
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-300">
             Infrastructure Expert
           </span>
         </h1>
 
         <p className="text-lg sm:text-xl md:text-2xl text-slate-100/90 mb-10 leading-relaxed max-w-3xl mx-auto">
-          🚀 Results-driven engineer with 6+ years of experience in scalable cloud architecture, secure enterprise networking, and DevOps automation across mission-critical systems.
+          ☁️ Transforming infrastructure with scalable cloud solutions, secure enterprise networking, and modern DevOps practices. 6+ years of hands-on excellence.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <button
             onClick={() => scrollToSection('contact')}
-            className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-3 rounded-xl font-medium shadow-xl hover:shadow-2xl transform transition hover:-translate-y-1 flex items-center gap-2"
+            className="bg-gradient-to-r from-sky-400 to-blue-500 hover:from-sky-500 hover:to-blue-600 text-white px-8 py-3 rounded-full font-semibold shadow-md hover:shadow-2xl transition-all duration-300 flex items-center gap-2"
           >
             <Mail className="h-5 w-5" />
             Get In Touch
@@ -114,7 +116,7 @@ const Hero = () => {
           <a
             href="/Chirag_Budheliya_Resume.pdf"
             download
-            className="bg-white/10 border border-white/20 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-3 rounded-xl font-medium transition-all duration-300 flex items-center gap-2"
+            className="border border-white/30 backdrop-blur-md text-white px-8 py-3 rounded-full font-semibold hover:bg-white/10 transition-all duration-300 flex items-center gap-2"
           >
             <Download className="h-5 w-5" />
             Download Resume
