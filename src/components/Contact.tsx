@@ -133,13 +133,13 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="mt-8 p-6 bg-gradient-to-br from-blue-50 to-teal-50 rounded-xl">
+            {/* <div className="mt-8 p-6 bg-gradient-to-br from-blue-50 to-teal-50 rounded-xl">
               <h4 className="font-bold text-gray-900 mb-3">Available for Opportunities</h4>
               <p className="text-gray-700 leading-relaxed">
                 Currently seeking full-time opportunities in cloud infrastructure, network engineering, 
                 and DevOps roles in Canada. Open to remote and hybrid positions.
               </p>
-            </div>
+            </div> */}
           </div>
 
           {/* Contact Form */}
