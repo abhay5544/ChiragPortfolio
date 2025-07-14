@@ -42,13 +42,13 @@ const Contact = () => {
       icon: Mail,
       label: "Email",
       value: "your.email@example.com",
-      href: "mailto:your.email@example.com"
+      href: "chirag.budheliya046@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
       value: "+1 (XXX) XXX-XXXX",
-      href: "tel:+1XXXXXXXXXX"
+      href: "tel:+1 437-955-6156 "
     },
     {
       icon: MapPin,
@@ -62,7 +62,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "#",
+      href: "https://www.linkedin.com/in/budheliya-chirag",
       color: "hover:text-blue-600"
     },
     {
@@ -74,7 +74,7 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:your.email@example.com",
+      href: "chirag.budheliya046@gmail.com",
       color: "hover:text-red-600"
     }
   ];
