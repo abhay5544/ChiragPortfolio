@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-4">
               <Cloud className="h-8 w-8 text-blue-400" />
               <Network className="h-8 w-8 text-teal-400" />
-              <span className="text-xl font-bold">CloudNet Pro</span>
+              <span className="text-xl font-bold">Chirag's Portfolio</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               Dedicated Cloud and Network Engineer with expertise in enterprise infrastructure, 
@@ -47,8 +47,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Get In Touch</h3>
             <div className="space-y-2 text-gray-400">
-              <p>📧 your.email@example.com</p>
-              <p>📱 +1 (XXX) XXX-XXXX</p>
+              <p>📧 chirag.budheliya046@gmail.com </p>
+              <p>📱 +1  437-955-6156</p>
               <p>📍 Canada</p>
             </div>
           </div>

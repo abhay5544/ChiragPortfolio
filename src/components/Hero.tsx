@@ -46,13 +46,13 @@ const Hero = () => {
           </div>
 
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-white/80 hover:text-white transition-colors hover:scale-110 transform duration-300">
+            <a href="https://www.linkedin.com/in/budheliya-chirag/" className="text-white/80 hover:text-white transition-colors hover:scale-110 transform duration-300">
               <Linkedin className="h-6 w-6" />
             </a>
             <a href="#" className="text-white/80 hover:text-white transition-colors hover:scale-110 transform duration-300">
               <Github className="h-6 w-6" />
             </a>
-            <a href="#" className="text-white/80 hover:text-white transition-colors hover:scale-110 transform duration-300">
+            <a href="chirag.budheliya046@gmail.com " className="text-white/80 hover:text-white transition-colors hover:scale-110 transform duration-300">
               <Mail className="h-6 w-6" />
             </a>
           </div>
